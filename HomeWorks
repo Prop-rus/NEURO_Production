@@ -1,0 +1,25 @@
+Интеграция в продакшн. Часть 1
+
+Light задание 1
+Обучить модель mnist, сделать предсказание для картинки (у себя в ноутбуке). При запуске веб сервера должен выводиться результат предсказания (использовать метод POST)
+Исправить код и добиться точного распознавания.
+PRO задание 
+
+
+Установить и настроить Spark. Взять любой набор данных на задачу классификации и обучить RandomForestClassifier , GBTClassifier и MultilayerPerceptronClassifier используя Spark ML(https://spark.apache.org/docs/latest/ml-classification-regression.html)
+Посчитать 2 любые метрики классификации для одной обученной модели.
+
+
+Домашнее задание к занятию 35
+Интеграция в Production. Часть 2
+Light задание
+Поставить TF Serving на свой ПК, используя docker (Windows: https://docs.docker.com/docker-for-windows/install/ ; Mac: https://docs.docker.com/docker-for-mac/install/; CentOS: https://docs.docker.com/install/linux/docker-ce/centos/ -см другие дистрибутивы Linux по ссылке https://docs.docker.com/install/linux/docker-ce/ )
+Обучить модель cifar10 Keras, сохранить в формат SavedModel
+Вывести сигнатуру для сконвертированной модели
+Запустить Tensor flow serving, используя docker, указав путь к модели
+Написать любую функцию используя numpy, переписать функцию, используя numba (@jit decorator), таким образом чтобы версия numba работала быстрее. 
+PRO задание
+Поставить TF Serving на свой ПК, используя docker (Windows: https://docs.docker.com/docker-for-windows/install/ ; Mac: https://docs.docker.com/docker-for-mac/install/; CentOS: https://docs.docker.com/install/linux/docker-ce/centos/ -см другие дистрибутивы Linux по ссылке https://docs.docker.com/install/linux/docker-ce/ )
+Обучите сеть на любой нестандартной керасовской базе данных
+Создайте контейнер с изображением в docker, запустите сервер
+Посмотрите каким будет предсказание
